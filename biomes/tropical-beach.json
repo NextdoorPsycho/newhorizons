@@ -1,0 +1,32 @@
+{
+    "vanillaDerivative": "WARM_OCEAN",
+    "name": "Beach",
+    "layers": [
+        {
+            "minHeight": 1,
+            "maxHeight": 1,
+            "palette": [
+                {
+                    "block": "sand"
+                }
+            ]
+        },
+        {
+            "minHeight": 1,
+            "maxHeight": 6,
+            "palette": [
+                {
+                    "block": "sandstone"
+                }
+            ]
+        }
+    ],
+    "generators": [
+        {
+            "min": 0,
+            "max": 0,
+            "generator": "plain"
+        }
+    ],
+    "derivative": "WARM_OCEAN"
+}

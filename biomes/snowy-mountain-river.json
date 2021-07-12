@@ -1,0 +1,159 @@
+{
+    "vanillaDerivative": "FROZEN_RIVER",
+    "seaLayers": [
+        {
+            "minHeight": 1,
+            "maxHeight": 2,
+            "style": {
+                "style": "FRACTAL_SMOKE"
+            },
+            "zoom": 0.65,
+            "palette": [
+                {
+                    "weight": 2,
+                    "block": "ice"
+                },
+                {
+                    "weight": 3,
+                    "block": "packed_ice"
+                },
+                {
+                    "block": "blue_ice"
+                },
+                {
+                    "weight": 3,
+                    "block": "packed_ice"
+                },
+                {
+                    "weight": 2,
+                    "block": "ice"
+                }
+
+            ]
+        }
+    ],
+    "name": "Snowy river",
+    "layers": [
+        {
+            "minHeight": 2,
+            "maxHeight": 3,
+            "style": {
+                "style": "IRIS_DOUBLE",
+                "fracture": {
+                    "style": "STATIC",
+                    "multiplier": 30
+                }
+            },
+            "zoom": 0.7,
+            "palette": [
+                {
+                    "block": "cobblestone",
+                    "weight": 3
+                },
+                {
+                    "block": "clay",
+                    "weight": 1
+                },
+                {
+                    "block": "gravel",
+                    "weight": 8
+                }
+            ]
+        },
+        {
+            "palette": [
+                {
+                    "block": "cobblestone"
+                },
+                {
+                    "block": "stone"
+                }
+            ]
+        }
+    ],
+    "objects": [
+        {
+            "chance": 0.3,
+            "rotation": {
+                "yAxis": {
+                    "min": 0,
+                    "max": 0,
+                    "interval": 90,
+                    "enabled": true
+                },
+                "enabled": true
+            },
+            "onwater": true,
+            "place": [
+                "ice-spikes/ice-spec-1",
+                "ice-spikes/ice-spec-2",
+                "ice-spikes/ice-spec-3",
+                "ice-spikes/ice-spec-4",
+                "ice-spikes/ice-spec-5"
+            ],
+            "translate": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+            }
+        },
+        {
+            "chance": 0.3,
+            "rotation": {
+                "yAxis": {
+                    "min": 0,
+                    "max": 0,
+                    "interval": 90,
+                    "enabled": true
+                },
+                "enabled": true
+            },
+            "onwater": true,
+            "place": [
+                "ice-spikes/ice-spec-1",
+                "ice-spikes/ice-spec-2",
+                "ice-spikes/ice-spec-3",
+                "ice-spikes/ice-spec-4",
+                "ice-spikes/ice-spec-5"
+            ],
+            "translate": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+            }
+        },
+        {
+            "chance": 0.3,
+            "rotation": {
+                "yAxis": {
+                    "min": 0,
+                    "max": 0,
+                    "interval": 90,
+                    "enabled": true
+                },
+                "enabled": true
+            },
+            "onwater": true,
+            "place": [
+                "ice-spikes/ice-spec-1",
+                "ice-spikes/ice-spec-2",
+                "ice-spikes/ice-spec-3",
+                "ice-spikes/ice-spec-4",
+                "ice-spikes/ice-spec-5"
+            ],
+            "translate": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+            }
+        }
+    ],
+    "generators": [
+        {
+            "generator": "smooth-land",
+            "max": -18,
+            "min": -25
+        }
+    ],
+    "derivative": "FROZEN_RIVER"
+}

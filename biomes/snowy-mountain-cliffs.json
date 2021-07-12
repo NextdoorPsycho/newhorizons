@@ -1,0 +1,146 @@
+{
+    "vanillaDerivative": "SNOWY_MOUNTAINS",
+    "name": "Snowy mountain cliffs",
+    "layers": [
+        {
+            "minHeight": 1,
+            "maxHeight": 1,
+            "slopeCondition": {
+                "minimumSlope": 0,
+                "maximumSlope": 3.8
+            },
+            "palette": [
+                {
+                    "block": "snow_block"
+                }
+            ]
+        },
+        {
+            "minHeight": 2,
+            "maxHeight": 4,
+            "style": {
+                "style": "FRACTAL_WATER",
+                "fracture": {
+                    "style": "STATIC",
+                    "multiplier": 15
+                }
+            },
+            "zoom": 0.4,
+            "slopeCondition": {
+                "minimumSlope": 3.95,
+                "maximumSlope": 6
+            },
+            "palette": [
+                {
+                    "block": "packed_ice",
+                    "weight": 4
+                },
+                {
+                    "block": "stone",
+                    "weight": 10
+                }
+            ]
+        },
+        {
+            "minHeight": 2,
+            "maxHeight": 4,
+            "style": {
+                "style": "STATIC"
+            },
+            "slopeCondition": {
+                "minimumSlope": 1.5
+            },
+            "palette": [
+                {
+                    "block": "basalt",
+                    "weight": 3
+
+                },
+                {
+                    "block": "stone",
+                    "weight": 5
+                },
+                {
+                    "block": "gray_concrete_powder",
+                    "weight": 3
+                }
+            ]
+        },
+        {
+            "minHeight": 2,
+            "maxHeight": 18,
+            "style": {
+                "style": "STATIC"
+            },
+            "palette": [
+                {
+                    "block": "stone",
+                    "weight": 2
+                },
+                {
+                    "block": "andesite",
+                    "weight": 1
+                }
+            ]
+        },
+        {
+            "minHeight": 3,
+            "maxHeight": 3,
+            "slopeCondition": {
+                "minimumSlope": 0,
+                "maximumSlope": 4
+            },
+            "palette": [
+                {
+                    "block": "packed_ice"
+                }
+            ]
+        },
+        {
+            "minHeight": 1,
+            "maxHeight": 1,
+            "slopeCondition": {
+                "minimumSlope": 0,
+                "maximumSlope": 6
+            },
+            "palette": [
+                {
+                    "block": "snow_block"
+                }
+            ]
+        }
+    ],
+    "generators": [
+        {
+            "min": 11,
+            "max": 32,
+            "generator": "plain"
+        },
+        {
+            "min": 12,
+            "max": 42,
+            "generator": "cracked-cliffs"
+        }
+    ],
+    "derivative": "SNOWY_MOUNTAINS",
+    "wall": {
+        "style": {
+            "style": "STATIC"
+        },
+        "palette": [
+            {
+                "block": "stone"
+            },
+            {
+                "block": "andesite"
+            },
+            {
+                "block": "gravel"
+            },
+            {
+                "block": "cyan_terracotta"
+            }
+        ]
+    },
+    "rarity": 19
+}

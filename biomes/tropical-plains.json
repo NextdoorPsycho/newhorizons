@@ -1,0 +1,156 @@
+{
+    "name": "Tropical Plains",
+    "derivative": "JUNGLE",
+    "vanillaDerivative": "JUNGLE",
+    "childStyle": {
+        "style": "SIMPLEX",
+        "zoom": 0.5,
+        "exponent": 2.0
+    },
+    "generators": [
+        {
+            "generator": "smooth-land",
+            "max": 20,
+            "min": -10
+        }
+    ],
+    "layers": [
+        {
+            "slopeCondition": {
+                "maximumSlope": 4
+            },
+            "palette": [
+                {
+                    "block": "grass_block"
+                }
+            ]
+        },
+        {
+            "slopeCondition": {
+                "maximumSlope": 4
+            },
+            "minHeight": 2,
+            "maxHeight": 2,
+            "palette": [
+                {
+                    "block": "dirt"
+                }
+            ]
+        },
+        {
+            "minHeight": 3,
+            "maxHeight": 5,
+            "palette": [
+                {
+                    "block": "terracotta"
+                }
+            ]
+        },
+        {
+            "minHeight": 3,
+            "maxHeight": 6,
+            "palette": [
+                {
+                    "block": "stone"
+                }
+            ]
+        }
+    ],
+    "decorators": [
+        {
+            "chance": 0.7,
+            "palette": [
+                {
+                    "weight": 2,
+                    "block": "grass"
+                },
+                {
+                    "weight": 1,
+                    "block": "tall_grass"
+                }
+            ]
+        },
+        {
+            "chance": 0.06,
+            "variance": {
+                "style": "STATIC"
+            },
+            "palette": [
+                {
+                    "block": "dandelion"
+                },
+                {
+                    "block": "poppy"
+                },
+                {
+                    "block": "blue_orchid"
+                },
+                {
+                    "block": "allium"
+                },
+                {
+                    "block": "azure_bluet"
+                },
+                {
+                    "block": "red_tulip"
+                },
+                {
+                    "block": "orange_tulip"
+                },
+                {
+                    "block": "white_tulip"
+                },
+                {
+                    "block": "pink_tulip"
+                },
+                {
+                    "block": "oxeye_daisy"
+                },
+                {
+                    "block": "cornflower"
+                },
+                {
+                    "block": "lily_of_the_valley"
+                }
+            ]
+        }
+    ],
+    "objects": [
+        {
+            "mode": "PAINT",
+            "place": [
+                "bush/1",
+                "bush/2",
+                "bush/3"
+            ],
+            "chance": 1,
+            "density": 5
+        },
+        {
+            "place": [
+                "jungle/1",
+                "jungle/2",
+                "jungle/3",
+                "jungle/4",
+                "jungle/5",
+                "jungle/6",
+                "jungle/7",
+                "jungle/8",
+                "jungle/9"
+            ],
+            "chance": 1,
+            "rotation": {
+                "enabled": true,
+                "yAxis": {
+                    "enabled": true,
+                    "interval": 90,
+                    "min": -360,
+                    "max": 360
+                }
+            },
+            "translate": {
+                "y": -2
+            }
+        }
+    ]
+}

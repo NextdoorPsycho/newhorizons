@@ -1,0 +1,155 @@
+{
+    "vanillaDerivative": "SWAMP",
+    "decorators": [
+        {
+            "chance": 0.2,
+            "variance": {
+                "style": "STATIC"
+            },
+            "zoom": 5,
+            "palette": [
+                {
+                    "block": "seagrass"
+                }
+            ],
+            "style": {
+                "style": "STATIC"
+            }
+        },
+        {
+            "chance": 0.2,
+            "verticalZoom": 88,
+            "variance": {
+                "style": "STATIC"
+            },
+            "stackMax": 6,
+            "zoom": 1,
+            "palette": [
+                {
+                    "block": "kelp_plant"
+                }
+            ],
+            "style": {
+                "style": "STATIC"
+            },
+            "heightVariance": {
+                "style": "IRIS"
+            },
+            "stackMin": 2
+        },
+        {
+            "chance": 0.012,
+            "variance": {
+                "style": "STATIC"
+            },
+            "zoom": 1,
+            "palette": [
+                {
+                    "data": {
+                        "waterlogged": true,
+                        "pickles": 1
+                    },
+                    "block": "sea_pickle"
+                }
+            ],
+            "style": {
+                "style": "STATIC"
+            }
+        }
+    ],
+    "name": "Mangrove river",
+    "layers": [
+        {
+            "minHeight": 2,
+            "maxHeight": 3,
+            "style": {
+                "style": "SIMPLEX",
+                "fracture": {
+                    "style": "STATIC",
+                    "multiplier": 15
+                }
+            },
+            "zoom": 0.8,
+            "palette": [
+                {
+                    "block": "dirt"
+                },
+                {
+                    "block": "coarse_dirt"
+                }
+            ]
+        },
+        {
+            "palette": [
+                {
+                    "block": "dirt"
+                }
+            ]
+        },
+        {
+            "minHeight": 1,
+            "maxHeight": 3,
+            "palette": [
+                {
+                    "weight": 2,
+                    "block": "dirt"
+                },
+                {
+                    "block": "coarse_dirt"
+                }
+            ]
+        }
+    ],
+    "objects": [
+        {
+            "mode": "FAST_STILT",
+            "onwater": true,
+            "chance": 1,
+            "density": 1,
+            "place": [
+                "mangrove/tree1",
+                "mangrove/tree2",
+                "mangrove/tree3",
+                "mangrove/tree4",
+                "mangrove/tree5",
+                "mangrove/tree6",
+                "mangrove/tree7",
+                "mangrove/tree8",
+                "mangrove/tree9",
+                "mangrove/tree10",
+                "mangrove/tree11",
+                "mangrove/tree12",
+                "mangrove/tree13",
+                "mangrove/tree14",
+                "mangrove/tree15",
+                "mangrove/tree16",
+                "mangrove/tree17",
+                "mangrove/tree18",
+                "mangrove/tree19",
+                "mangrove/tree20",
+                "mangrove/tree21"
+            ],
+            "rotation":
+            {
+                "enabled": true,
+                "yAxis": {
+                    "enabled": true,
+                    "interval": 90,
+                    "min": -360,
+                    "max": 360
+                }
+            },
+            "translate": {
+                "y": -4
+            }
+        }
+    ],
+    "generators": [
+        {
+            "generator": "smooth-land",
+            "max": -2,
+            "min": -3
+        }
+    ],
+    "derivative": "SWAMP"
+}

@@ -1,0 +1,413 @@
+{
+    "name": "Mountain plains",
+    "derivative": "SAVANNA",
+    "vanillaDerivative": "SAVANNA",
+    "childShrinkFactor": 0.3,
+    "children": [
+        "pf-hills"
+    ],
+    "childStyle": {
+        "style": "GLOB",
+        "zoom": 6,
+        "fracture": {
+            "style": "SIMPLEX",
+            "multiplier": 15
+        }
+    },
+    "generators": [
+        {
+            "generator": "smooth-land",
+            "max": 13,
+            "min": 4
+        }
+    ],
+    "layers": [
+        {
+            "style": {
+                "style": "STATIC"
+            },
+            "minHeight": 1,
+            "maxHeight": 1,
+            "slopeCondition": {
+                "minimumSlope": 0,
+                "maximumSlope": 2.6
+            },
+            "palette": [
+                {
+                    "block": "grass_block",
+                    "weight": 20
+                },
+                {
+                    "block": "snow_block",
+                    "weight": 2
+                }
+            ]
+        },
+        {
+            "minHeight": 3,
+            "maxHeight": 3,
+            "slopeCondition": {
+                "minimumSlope": 0,
+                "maximumSlope": 2.6
+            },
+            "palette": [
+                {
+                    "block": "dirt"
+                }
+            ]
+        },
+        {
+            "minHeight": 2,
+            "maxHeight": 4,
+            "style": {
+                "style": "FRACTAL_WATER",
+                "fracture": {
+                    "style": "STATIC",
+                    "multiplier": 15
+                }
+            },
+            "zoom": 0.4,
+            "slopeCondition": {
+                "minimumSlope": 3.95,
+                "maximumSlope": 6
+            },
+            "palette": [
+                {
+                    "block": "packed_ice",
+                    "weight": 4
+                }
+            ]
+        },
+        {
+            "minHeight": 2,
+            "maxHeight": 4,
+            "style": {
+                "style": "STATIC"
+            },
+            "slopeCondition": {
+                "minimumSlope": 1.5
+            },
+            "palette": [
+                {
+                    "block": "packed_ice",
+                    "weight": 3
+
+                },
+                {
+                    "block": "blue_ice",
+                    "weight": 5
+                }
+            ]
+        },
+        {
+            "minHeight": 6,
+            "maxHeight": 18,
+            "style": {
+                "style": "STATIC"
+            },
+            "palette": [
+                {
+                    "block": "packed_ice",
+                    "weight": 2
+                }
+            ]
+        },
+        {
+            "minHeight": 5,
+            "maxHeight": 10,
+            "style": {
+                "style": "STATIC"
+            },
+            "palette": [
+                {
+                    "block": "stone",
+                    "weight": 2
+                }
+            ]
+        },
+        {
+            "minHeight": 1,
+            "maxHeight": 1,
+            "slopeCondition": {
+                "minimumSlope": 0,
+                "maximumSlope": 4
+            },
+            "palette": [
+                {
+                    "block": "grass_block"
+                }
+            ]
+        },
+        {
+            "minHeight": 3,
+            "maxHeight": 3,
+            "slopeCondition": {
+                "minimumSlope": 0,
+                "maximumSlope": 3
+            },
+            "palette": [
+                {
+                    "block": "dirt"
+                }
+            ]
+        }
+    ],
+    "wall": {
+        "palette": [
+            {
+                "block": "packed_ice"
+            }
+        ]
+    },
+    "decorators": [
+        {
+            "chance": 0.2,
+            "variance": {
+                "style": "CELLULAR",
+                "zoom": 0.3,
+                "fracture": {
+                    "style": "SIMPLEX",
+                    "zoom": 0.2,
+                    "multiplier": 10,
+                    "fracture": {
+                        "style": "STATIC",
+                        "multiplier": 15
+                    }
+                }
+            },
+            "style": {
+                "style": "TRIOCTAVE_SIMPLEX",
+                "zoom": 0.3,
+                "fracture": {
+                    "style": "STATIC",
+                    "multiplier": 8
+                }
+            },
+            "palette": [
+                {
+                    "block": "dandelion"
+                },
+                {
+                    "block": "poppy"
+                },
+                {
+                    "block": "blue_orchid"
+                },
+                {
+                    "block": "allium"
+                },
+                {
+                    "block": "azure_bluet"
+                },
+                {
+                    "block": "red_tulip"
+                },
+                {
+                    "block": "orange_tulip"
+                },
+                {
+                    "block": "white_tulip"
+                },
+                {
+                    "block": "pink_tulip"
+                },
+                {
+                    "block": "oxeye_daisy"
+                },
+                {
+                    "block": "cornflower"
+                },
+                {
+                    "block": "lily_of_the_valley"
+                }
+            ]
+        },
+        {
+            "chance": 0.01,
+            "palette": [
+                {
+                    "block": "tall_grass"
+                }
+            ]
+        },
+        {
+            "chance": 0.5,
+            "palette": [
+                {
+                    "block": "grass"
+                }
+            ]
+        },
+        {
+            "chance": 0.15,
+            "palette": [
+                {
+                    "block": "fern"
+                }
+            ]
+        },
+        {
+            "chance": 0.15,
+            "palette": [
+                {
+                    "block": "fern"
+                }
+            ]
+        },
+        {
+            "variance": {
+                "style": "CELLULAR",
+                "zoom": 0.3,
+                "fracture": {
+                    "style": "SIMPLEX",
+                    "zoom": 0.2,
+                    "multiplier": 10,
+                    "fracture": {
+                        "style": "STATIC",
+                        "multiplier": 15
+                    }
+                }
+            },
+            "style": {
+                "style": "TRIOCTAVE_SIMPLEX",
+                "zoom": 0.3,
+                "fracture": {
+                    "style": "STATIC",
+                    "multiplier": 8
+                }
+            },
+            "chance": 0.2,
+            "palette": [
+                {
+                    "block": "wheat",
+                    "data": {
+                        "age": 7
+                    }
+                }
+            ]
+        }
+    ],
+    "objects": [
+        {
+            "place": [
+                "spruce-medium/spruce1",
+                "spruce-medium/spruce2",
+                "spruce-medium/spruce3",
+                "spruce-medium/spruce4",
+                "spruce-medium/spruce5",
+                "spruce-medium/spruce6",
+                "spruce-medium/spruce7",
+                "spruce-medium/spruce8",
+                "spruce-medium/spruce9",
+                "spruce-medium/spruce10",
+                "spruce-medium/spruce11",
+                "spruce-medium/spruce12",
+                "spruce-medium/spruce13",
+                "spruce-medium/spruce14",
+                "spruce-medium/spruce16",
+                "spruce-medium/spruce17",
+                "spruce-medium/spruce18",
+                "spruce-medium/spruce19",
+                "spruce-medium/spruce20",
+                "spruce-medium/spruce27",
+                "spruce-medium/spruce28",
+                "spruce-medium/spruce29",
+                "spruce-medium/spruce30",
+                "spruce-medium/spruce31",
+                "spruce-medium/spruce32",
+                "spruce-medium/spruce33",
+                "spruce-medium/spruce34",
+                "spruce-medium/spruce37",
+                "spruce-medium/spruce39",
+                "spruce-medium/spruce41",
+                "spruce-medium/spruce42",
+                "spruce-medium/spruce43"
+            ],
+            "chance": 0.46,
+            "rotation": {
+                "enabled": true,
+                "yAxis": {
+                    "enabled": true,
+                    "interval": 90,
+                    "min": -360,
+                    "max": 360
+                }
+            }
+        },
+        {
+            "mode": "PAINT",
+            "chance": 0.3,
+            "place": [
+                "bush/4",
+                "bush/5",
+                "bush/6",
+                "bush/7",
+                "bush/8",
+                "bush/9",
+                "bush/10",
+                "bush/11",
+                "bush/12",
+                "bush/12",
+                "bush/14"
+            ],
+            "rotation": {
+                "enabled": true,
+                "yAxis": {
+                    "enabled": true,
+                    "interval": 90,
+                    "min": -360,
+                    "max": 360
+                }
+            },
+            "translate": {
+                "x": 0,
+                "y": 1,
+                "z": 0
+            },
+            "edit": [
+                {
+                    "find": [
+                        {
+                            "block": "oak_leaves"
+                        }
+                    ],
+                    "replace": {
+                        "palette": [
+                            {
+                                "block": "spruce_leaves",
+                                "data": {
+                                    "persistent": true
+                                }
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "mode": "PAINT",
+            "place": [
+                "mrock/mrock-1",
+                "mrock/mrock-2",
+                "mrock/mrock-3",
+                "mrock/mrock-4",
+                "mrock/mrock-5"
+            ],
+            "chance": 0.04,
+            "rotation": {
+                "enabled": true,
+                "yAxis": {
+                    "enabled": true,
+                    "interval": 90,
+                    "min": -360,
+                    "max": 360
+                }
+            },
+            "translate": {
+                "x": 0,
+                "y": -1,
+                "z": 0
+            }
+        }
+    ]
+}

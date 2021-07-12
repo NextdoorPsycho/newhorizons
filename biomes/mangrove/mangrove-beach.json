@@ -1,0 +1,77 @@
+{
+    "derivative": "SWAMP",
+    "vanillaDerivative": "SWAMP",
+    "name": "Mangrove beach",
+    "generators": [
+        {
+            "generator": "smooth-land",
+            "min": -1,
+            "max": 1
+        }
+    ],
+    "decorators": [
+        {
+            "chance": 0.25,
+            "palette": [
+                {
+                    "block": "grass"
+                }
+            ]
+        },
+        {
+            "chance": 0.065,
+            "palette": [
+                {
+                    "block": "fern"
+                }
+            ]
+        },
+        {
+            "chance": 0.005,
+            "palette": [
+                {
+                    "block": "blue_orchid"
+                }
+            ]
+        },
+        {
+            "chance": 0.065,
+            "palette": [
+                {
+                    "block": "large_fern"
+                }
+            ]
+        }
+    ],
+    "layers": [
+        {
+            "minHeight": 3,
+            "maxHeight": 3,
+            "style": {
+                "style": "FRACTAL_WATER"
+            },
+            "zoom": 0.7,
+            "palette": [
+                {
+                    "block": "coarse_dirt"
+                },
+                {
+                    "block": "dirt"
+                }
+            ]
+        },
+        {
+            "minHeight": 1,
+            "maxHeight": 3,
+            "palette": [
+                {
+                    "block": "dirt"
+                },
+                {
+                    "weight": 2,
+                    "block": "coarse_dirt"
+                }
+            ]
+        }
+    ]
+}

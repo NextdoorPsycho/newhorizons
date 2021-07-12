@@ -1,0 +1,231 @@
+{
+    "vanillaDerivative": "SWAMP",
+    "children": [
+        "swamp/swamp-forest"
+    ],
+    "childStyle": {
+        "style": "IRIS_DOUBLE",
+        "zoom": 0.1
+    },
+    "decorators": [
+        {
+            "chance": 0.2,
+            "variance": {
+                "style": "STATIC"
+            },
+            "zoom": 5,
+            "palette": [
+                {
+                    "block": "seagrass"
+                }
+            ],
+            "style": {
+                "style": "STATIC"
+            }
+        },
+        {
+            "chance": 0.2,
+            "verticalZoom": 88,
+            "variance": {
+                "style": "STATIC"
+            },
+            "stackMax": 6,
+            "zoom": 1,
+            "palette": [
+                {
+                    "block": "kelp_plant"
+                }
+            ],
+            "style": {
+                "style": "STATIC"
+            },
+            "heightVariance": {
+                "style": "IRIS"
+            },
+            "stackMin": 2
+        },
+        {
+            "chance": 0.012,
+            "variance": {
+                "style": "STATIC"
+            },
+            "zoom": 1,
+            "palette": [
+                {
+                    "data": {
+                        "waterlogged": true,
+                        "pickles": 1
+                    },
+                    "block": "sea_pickle"
+                }
+            ],
+            "style": {
+                "style": "STATIC"
+            }
+        }
+    ],
+    "name": "Swamp puddle",
+    "layers": [
+        {
+            "minHeight": 2,
+            "maxHeight": 3,
+            "style": {
+                "style": "SIMPLEX"
+            },
+            "zoom": 0.8,
+            "palette": [
+                {
+                    "block": "dirt"
+                },
+                {
+                    "block": "coarse_dirt"
+                }
+            ]
+        },
+        {
+            "palette": [
+                {
+                    "block": "dirt"
+                }
+            ]
+        },
+        {
+            "minHeight": 1,
+            "maxHeight": 3,
+            "palette": [
+                {
+                    "weight": 2,
+                    "block": "dirt"
+                },
+                {
+                    "block": "coarse_dirt"
+                }
+            ]
+        }
+    ],
+    "generators": [
+        {
+            "generator": "puddles",
+            "max": -4,
+            "min": -7
+        }
+    ],
+    "objects": [
+        {
+            "place": [
+                "willow/w1",
+                "willow/w2",
+                "willow/w3",
+                "willow/w4",
+                "willow/w5",
+                "willow/w6",
+                "willow/w7",
+                "willow/w8",
+                "willow/w9"
+            ],
+            "chance": 0.4,
+            "rotation": {
+                "enabled": true,
+                "yAxis": {
+                    "enabled": true,
+                    "interval": 90,
+                    "min": -360,
+                    "max": 360
+                }
+            },
+            "translate": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+            },
+            "edit": [
+                {
+                    "find": [
+                        {
+                            "block": "green_wool"
+                        }
+                    ],
+                    "replace": {
+                        "palette": [
+                            {
+                                "block": "air"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "find": [
+                        {
+                            "block": "oak_leaves"
+                        }
+                    ],
+                    "replace": {
+                        "palette": [
+                            {
+                                "block": "birch_leaves",
+                                "data": {
+                                    "persistent": true
+                                }
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "place": [
+                "swamp/bigtree/1",
+                "swamp/bigtree/2",
+                "swamp/bigtree/3",
+                "swamp/bigtree/4",
+                "swamp/bigtree/5",
+                "swamp/bigtree/6",
+                "swamp/bigtree/7",
+                "swamp/bigtree/8",
+                "swamp/bigtree/9"
+            ],
+            "chance": 1,
+            "rotation": {
+                "enabled": true,
+                "yAxis": {
+                    "enabled": true,
+                    "interval": 90,
+                    "min": -360,
+                    "max": 360
+                }
+            },
+            "translate": {
+                "x": 0,
+                "y": -2,
+                "z": 0
+            }
+        },
+        {
+            "place": [
+                "rock/1",
+                "rock/2",
+                "rock/3",
+                "rock/4",
+                "rock/5"
+            ],
+            "mode": "PAINT",
+            "onwater": true,
+            "chance": 0.4,
+            "rotation": {
+                "enabled": true,
+                "yAxis": {
+                    "enabled": true,
+                    "interval": 90,
+                    "min": -360,
+                    "max": 360
+                }
+            },
+            "translate": {
+                "x": 0,
+                "y": -1,
+                "z": 0
+            }
+        }
+    ],
+    "derivative": "SWAMP"
+}

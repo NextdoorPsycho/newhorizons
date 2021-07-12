@@ -1,0 +1,66 @@
+{
+    "derivative": "SWAMP",
+    "vanillaDerivative": "SWAMP",
+    "name": "Mangrove forest",
+    "layers": [
+        {
+            "maxHeight": 1,
+            "minHeight": 1,
+            "palette": [
+                {
+                    "block": "grass_block"
+                }
+            ]
+        },
+        {
+            "maxHeight": 2,
+            "minHeight": 2,
+            "palette": [
+                {
+                    "block": "coarse_dirt"
+                }
+            ]
+        }
+    ],
+    "decorators": [
+        {
+            "chance": 0.25,
+            "palette": [
+                {
+                    "block": "grass"
+                }
+            ]
+        },
+        {
+            "chance": 0.065,
+            "palette": [
+                {
+                    "block": "fern"
+                }
+            ]
+        },
+        {
+            "chance": 0.005,
+            "palette": [
+                {
+                    "block": "blue_orchid"
+                }
+            ]
+        },
+        {
+            "chance": 0.065,
+            "palette": [
+                {
+                    "block": "large_fern"
+                }
+            ]
+        }
+    ],
+    "generators": [
+        {
+            "generator": "steep-land",
+            "max": -3,
+            "min": -6
+        }
+    ]
+}

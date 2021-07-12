@@ -1,0 +1,184 @@
+{
+    "name": "Snowy plains",
+    "derivative": "SNOWY_TAIGA",
+    "vanillaDerivative": "SNOWY_TAIGA",
+    "children": [
+        "snowy-mountain-hills"
+    ],
+    "childShrinkFactor": 0.3,
+    "childStyle": {
+        "style": "GLOB",
+        "zoom": 6,
+        "fracture": {
+            "style": "SIMPLEX",
+            "multiplier": 15
+        }
+    },
+    "generators": [
+        {
+            "generator": "smooth-land",
+            "max": 13,
+            "min": 4
+        }
+    ],
+    "decorators": [
+        {
+            "chance": 1,
+            "variance": {
+                "style": "IRIS",
+                "zoom": 0.2
+            },
+            "palette": [
+                {
+                    "data": {
+                        "layers": 1
+                    },
+                    "block": "snow"
+                },
+                {
+                    "data": {
+                        "layers": 2
+                    },
+                    "block": "snow"
+                },
+                {
+                    "data": {
+                        "layers": 3
+                    },
+                    "block": "snow"
+                },
+                {
+                    "data": {
+                        "layers": 4
+                    },
+                    "block": "snow"
+                }
+            ]
+        }
+    ],
+    "layers": [
+        {
+            "minHeight": 1,
+            "maxHeight": 1,
+            "slopeCondition": {
+                "minimumSlope": 0,
+                "maximumSlope": 2.6
+            },
+            "palette": [
+                {
+                    "block": "snow_block"
+                }
+            ]
+        },
+        {
+            "minHeight": 2,
+            "maxHeight": 4,
+            "style": {
+                "style": "FRACTAL_WATER",
+                "fracture": {
+                    "style": "STATIC",
+                    "multiplier": 15
+                }
+            },
+            "zoom": 0.4,
+            "slopeCondition": {
+                "minimumSlope": 3.95,
+                "maximumSlope": 6
+            },
+            "palette": [
+                {
+                    "block": "packed_ice",
+                    "weight": 4
+                },
+                {
+                    "block": "stone",
+                    "weight": 10
+                }
+            ]
+        },
+        {
+            "minHeight": 2,
+            "maxHeight": 4,
+            "style": {
+                "style": "STATIC"
+            },
+            "slopeCondition": {
+                "minimumSlope": 1.5
+            },
+            "palette": [
+                {
+                    "block": "basalt",
+                    "weight": 3
+
+                },
+                {
+                    "block": "stone",
+                    "weight": 5
+                },
+                {
+                    "block": "gray_concrete_powder",
+                    "weight": 3
+                }
+            ]
+        },
+        {
+            "minHeight": 2,
+            "maxHeight": 18,
+            "style": {
+                "style": "STATIC"
+            },
+            "palette": [
+                {
+                    "block": "stone",
+                    "weight": 2
+                },
+                {
+                    "block": "andesite",
+                    "weight": 1
+                }
+            ]
+        },
+        {
+            "minHeight": 3,
+            "maxHeight": 3,
+            "slopeCondition": {
+                "minimumSlope": 0,
+                "maximumSlope": 4
+            },
+            "palette": [
+                {
+                    "block": "packed_ice"
+                }
+            ]
+        },
+        {
+            "minHeight": 1,
+            "maxHeight": 1,
+            "slopeCondition": {
+                "minimumSlope": 0,
+                "maximumSlope": 6
+            },
+            "palette": [
+                {
+                    "block": "snow_block"
+                }
+            ]
+        }
+    ],
+    "wall": {
+        "palette": [
+            {
+                "block": "stone"
+            },
+            {
+                "block": "andesite"
+            },
+            {
+                "block": "ice"
+            },
+            {
+                "block": "ice"
+            }
+        ]
+    }
+}

@@ -1,0 +1,67 @@
+{
+    "vanillaDerivative": "DESERT_LAKES",
+    "name": "Hot river",
+    "layers": [
+        {
+            "style": {
+                "style": "FRACTAL_WATER"
+            },
+            "zoom": 0.5,
+            "palette": [
+                {
+                    "block": "sand",
+                    "weight": 5
+                },
+                {
+                    "block": "clay",
+                    "weight": 2
+                }
+
+            ]
+        },
+        {
+            "minHeight": 2,
+            "maxHeight": 3,
+            "style": {
+                "style": "STATIC"
+            },
+            "palette": [
+                {
+                    "block": "sand"
+                },
+                {
+                    "block": "brown_terracotta"
+                },
+                {
+                    "weight": 2,
+                    "block": "sand"
+                }
+            ]
+        }
+    ],
+    "decorators": [
+        {
+            "chance": 0.1,
+            "variance": {
+                "style": "STATIC"
+            },
+            "zoom": 2,
+            "palette": [
+                {
+                    "block": "seagrass"
+                }
+            ],
+            "style": {
+                "style": "STATIC"
+            }
+        }
+    ],
+    "generators": [
+        {
+            "generator": "smooth-land",
+            "max": -5,
+            "min": -10
+        }
+    ],
+    "derivative": "DESERT_LAKES"
+}

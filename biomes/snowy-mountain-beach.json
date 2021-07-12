@@ -1,0 +1,42 @@
+{
+    "vanillaDerivative": "SNOWY_BEACH",
+    "name": "Snowy mountain beach",
+    "slab": {
+        "palette": [
+            {
+                "data": {
+                    "layers": 5
+                },
+                "block": "snow"
+            }
+        ]
+    },
+    "layers": [
+        {
+            "minHeight": 1,
+            "maxHeight": 3,
+            "palette": [
+                {
+                    "block": "snow_block"
+                }
+            ]
+        },
+        {
+            "minHeight": 1,
+            "maxHeight": 6,
+            "palette": [
+                {
+                    "block": "stone"
+                }
+            ]
+        }
+    ],
+    "generators": [
+        {
+            "min": -1,
+            "max": 2,
+            "generator": "smooth-land"
+        }
+    ],
+    "derivative": "SNOWY_BEACH"
+}

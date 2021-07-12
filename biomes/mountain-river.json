@@ -1,0 +1,129 @@
+{
+    "vanillaDerivative": "RIVER",
+    "decorators": [
+        {
+            "chance": 0.07,
+            "variance": {
+                "style": "STATIC"
+            },
+            "zoom": 5,
+            "palette": [
+                {
+                    "block": "seagrass"
+                }
+            ],
+            "style": {
+                "style": "STATIC"
+            }
+        },
+        {
+            "chance": 0.013,
+            "verticalZoom": 88,
+            "variance": {
+                "style": "STATIC"
+            },
+            "stackMax": 6,
+            "zoom": 1,
+            "palette": [
+                {
+                    "block": "kelp_plant"
+                }
+            ],
+            "style": {
+                "style": "STATIC"
+            },
+            "heightVariance": {
+                "style": "IRIS"
+            },
+            "stackMin": 2
+        }
+    ],
+    "name": "Mountain river",
+    "layers": [
+        {
+            "minHeight": 2,
+            "maxHeight": 3,
+            "style": {
+                "style": "IRIS_DOUBLE",
+                "fracture": {
+                    "style": "STATIC",
+                    "multiplier": 30
+                }
+            },
+            "zoom": 0.7,
+            "palette": [
+                {
+                    "block": "cobblestone",
+                    "weight": 3
+                },
+                {
+                    "block": "clay",
+                    "weight": 1
+                },
+                {
+                    "block": "gravel",
+                    "weight": 8
+                }
+            ]
+        },
+        {
+            "palette": [
+                {
+                    "block": "cobblestone"
+                },
+                {
+                    "block": "stone"
+                }
+            ]
+        }
+    ],
+    "generators": [
+        {
+            "generator": "smooth-land",
+            "max": -18,
+            "min": -25
+        }
+    ],
+    "objects": [
+        {
+            "place": [
+                "ships/1",
+                "ships/2",
+                "ships/3",
+                "ships/4"
+            ],
+            "chance": 0.0035,
+            "onwater": true,
+            "translate": {
+                "y": -1
+            },
+            "rotation": {
+                "enabled": true,
+                "yAxis": {
+                    "enabled": true,
+                    "interval": 90,
+                    "min": -360,
+                    "max": 360
+                }
+            },
+            "edit": [
+                {
+                    "find": [
+                        {
+                            "block": "bone_block"
+                        }
+                    ],
+                    "replace": {
+                        "palette": [
+                            {
+                                "block": "gray_wool"
+                            }
+                        ]
+                    }
+                }
+            ],
+            "waterloggable": true
+        }
+    ],
+    "derivative": "RIVER"
+}

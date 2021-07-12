@@ -1,0 +1,48 @@
+{
+    "vanillaDerivative": "TAIGA_MOUNTAINS",
+    "slab": {
+        "style": {
+            "style": "STATIC"
+        },
+        "palette": [
+            {
+                "block": "stone_slab"
+            },
+            {
+                "block": "air"
+            }
+        ]
+    },
+    "name": "Mountain beach",
+    "layers": [
+        {
+            "minHeight": 1,
+            "maxHeight": 1,
+            "palette": [
+                {
+                    "block": "stone"
+                },
+                {
+                    "block": "andesite"
+                }
+            ]
+        },
+        {
+            "minHeight": 1,
+            "maxHeight": 6,
+            "palette": [
+                {
+                    "block": "stone"
+                }
+            ]
+        }
+    ],
+    "generators": [
+        {
+            "min": 0,
+            "max": 2,
+            "generator": "smooth-land"
+        }
+    ],
+    "derivative": "TAIGA_MOUNTAINS"
+}
