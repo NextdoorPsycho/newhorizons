@@ -1,8 +1,8 @@
 {
     "continentalStyle": {
         "style": "FRACTAL_RM_SIMPLEX",
-        "zoom": 4,
-        "exponent": 15
+        "zoom": 3.8,
+        "exponent": 8
     },
     "preventLeafDecay": true,
     "decorate": true,
