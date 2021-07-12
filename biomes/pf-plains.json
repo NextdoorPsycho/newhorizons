@@ -161,7 +161,7 @@
     },
     "decorators": [
         {
-            "chance": 0.2,
+            "chance": 0.17,
             "variance": {
                 "style": "CELLULAR",
                 "zoom": 0.3,
@@ -231,26 +231,10 @@
             ]
         },
         {
-            "chance": 0.5,
+            "chance": 0.3,
             "palette": [
                 {
                     "block": "grass"
-                }
-            ]
-        },
-        {
-            "chance": 0.15,
-            "palette": [
-                {
-                    "block": "fern"
-                }
-            ]
-        },
-        {
-            "chance": 0.15,
-            "palette": [
-                {
-                    "block": "fern"
                 }
             ]
         },
@@ -276,7 +260,7 @@
                     "multiplier": 8
                 }
             },
-            "chance": 0.2,
+            "chance": 0.01,
             "palette": [
                 {
                     "block": "wheat",
@@ -394,6 +378,50 @@
                 "mrock/mrock-5"
             ],
             "chance": 0.04,
+            "rotation": {
+                "enabled": true,
+                "yAxis": {
+                    "enabled": true,
+                    "interval": 90,
+                    "min": -360,
+                    "max": 360
+                }
+            },
+            "translate": {
+                "x": 0,
+                "y": -1,
+                "z": 0
+            }
+        },
+        {
+            "place": [
+                "ruins/r1",
+                "ruins/r2"
+            ],
+            "chance": 0.03,
+            "rotation": {
+                "enabled": true,
+                "yAxis": {
+                    "enabled": true,
+                    "interval": 90,
+                    "min": -360,
+                    "max": 360
+                }
+            },
+            "translate": {
+                "x": 0,
+                "y": -1,
+                "z": 0
+            }
+        },
+        {
+            "mode": "FAST_MIN_HEIGHT",
+            "place": [
+                "ruins/r3",
+                "ruins/r4",
+                "ruins/r5"
+            ],
+            "chance": 0.02,
             "rotation": {
                 "enabled": true,
                 "yAxis": {
