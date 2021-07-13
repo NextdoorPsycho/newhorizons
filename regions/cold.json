@@ -6,14 +6,7 @@
     "landBiomes": [
         "snowy-mountain",
         "snowy-mountain-plains",
-        "snowy-mountain-forest",
-        "snowy-mountain",
-        "snowy-mountain-plains",
-        "snowy-mountain-plains",
-        "snowy-mountain",
-        "snowy-mountain-plains",
-        "snowy-mountain-forest",
-        "snowy-mountain"
+        "snowy-mountain-forest"
     ],
     "biomeImplosionRatio": 0.25,
     "seaBiomes": [

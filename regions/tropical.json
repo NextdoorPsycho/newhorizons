@@ -21,8 +21,7 @@
     ],
     "landBiomes": [
         "tropical-plains",
-        "tropical-mountain",
-        "tropical-plains"
+        "tropical-mountain"
     ],
     "biomeImplosionRatio": 0.25,
     "seaBiomes": [
