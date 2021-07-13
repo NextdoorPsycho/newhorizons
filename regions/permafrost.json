@@ -1,17 +1,17 @@
 {
     "landBiomes": [
-		"pf-plains"
+		"permafrost/pf-plains"
     ],
     "biomeImplosionRatio": 0.26,
     "seaBiomes": [
-        "pf-river",
-        "pf-river-ice"
+        "permafrost/pf-river",
+        "permafrost/pf-river-ice"
     ],
     "landBiomeZoom": 0.5,
     "shoreHeightMin": 0,
     "shoreHeightMax": 0,
     "shoreBiomes": [
-        "pf-beach"
+        "permafrost/pf-beach"
     ],
     "name": "Mangrove forest",
     "rarity": 40
