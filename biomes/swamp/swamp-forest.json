@@ -3,18 +3,6 @@
     "derivative": "SWAMP",
     "vanillaDerivative": "SWAMP",
     "rarity": 2,
-    "children": [
-        "swamp-forest-dense"
-    ],
-    "childShrinkFactor": 0.3,
-    "childStyle": {
-        "style": "GLOB",
-        "zoom": 6,
-        "fracture": {
-            "style": "SIMPLEX",
-            "multiplier": 15
-        }
-    },
     "generators": [
         {
             "generator": "puddles",

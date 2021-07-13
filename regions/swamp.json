@@ -1,6 +1,7 @@
 {
     "landBiomes": [
-        "swamp/swamp-forest"
+        "swamp/swamp-forest",
+        "swamp/swamp-forest-dense"
     ],
     "biomeImplosionRatio": 0.25,
     "seaBiomes": [
