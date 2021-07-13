@@ -8,7 +8,7 @@
         {
             "seed": 5346,
             "style": {
-                "style": "TRIOCTAVE_FRACTAL_CUBIC",
+                "style": "BIOCTAVE_SIMPLEX",
                 "zoom": 1.7,
                 "fracture": {
                     "style": "IRIS_THICK",
@@ -27,7 +27,7 @@
                 "zoom": 0.6,
                 "exponent": 0.7,
                 "fracture": {
-                    "style": "BIOCTAVE_FRACTAL_BILLOW_SIMPLEX",
+                    "style": "BIOCTAVE_SIMPLEX",
                     "zoom": 0.8,
                     "exponent": 1.3,
                     "multiplier": 80
