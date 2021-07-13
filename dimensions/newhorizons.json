@@ -26,7 +26,7 @@
     "carving": false,
     "continentZoom": 3,
     "landBiomeStyle": {
-        "style": "CELLULAR",
+        "style": "CELLULAR_IRIS",
         "fracture": {
             "multiplier": 18,
             "maxFractureAccuracy": true,
